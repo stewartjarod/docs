@@ -71,11 +71,11 @@
     {
       "group": "API Documentation",
       "pages": [
-        "api-reference/introduction"
+        "api-reference/introduction",
+        "api-reference/single-query-product-search",
+        "api-reference/prompt-query"
       ]
-    },
-    "api-reference/single-query-product-search",
-    "api-reference/prompt-query"
+    }
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/mintlify",
