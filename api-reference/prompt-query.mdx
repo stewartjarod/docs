@@ -1,3 +1,23 @@
 ---
 openapi: post /query/prompt
 ---
+
+<RequestExample>
+
+```bash Python
+import ionic_shopping_api
+from ionic_shopping_api.models import operations
+
+s = ionic_shopping_api.IonicShoppingAPI(
+    server_url="https://api.ionicapi.com",
+)
+
+
+res = s.plugin_query(q='string')
+
+if res.query_api_response is not None:
+    # handle response
+    pass
+```
+
+</RequestExample>
